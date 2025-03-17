@@ -1,0 +1,115 @@
+
+body {
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
+  padding: 40px;
+  background-image: url(https://raw.githubusercontent.com/Lukeshmlikesh/Website/refs/heads/main/1041uuu-10-ezgif.com-crop.gif);
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header2 {
+  border-bottom: 3px solid #000000;
+}
+
+.header h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #eee8d377;
+  position: sticky;
+  top: 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 27px 25px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  opacity: 1;
+}
+
+
+.topnav a:hover {
+  background-color: #969696;
+  color: rgb(0, 0, 0);
+}
+
+
+
+.centercolumn {   
+  width: 90%;
+  padding: 0% 5% 0% 5%;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+.card {
+  background-color: white;
+  padding: 20px 40px 20px 40px;
+  margin: 20px 0px 50px 0px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #ddd;
+  margin-top: 20px;
+  clear: both;
+  bottom:0;
+}
+
+
+.rightcolumn {
+    width: 0%;
+    padding: 0px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding: 14px;
+  }
+}
+
